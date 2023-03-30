@@ -15,10 +15,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  server: nginx-service
+  name: nginx-service
 spec:
   selector:
-    server: nginx-service
+    server: nginx
   ports:
     - protocol: TCP
       port: 80
